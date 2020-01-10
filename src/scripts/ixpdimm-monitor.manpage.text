@@ -1,0 +1,38 @@
+
+NAME
+**serviceName** - Daemon to monitor **fullProductName** management events.  Used by **cliName**.
+
+SYNOPSIS
+.B **serviceName**
+.RB [ -d ]
+
+DESCRIPTION
+
+Daemon to monitor **fullProductName** management events.  These events can be viewed using **cliName**.
+
+OPTION
+.TP
+.B -d
+Starts
+.B **serviceName**
+as a background daemon.
+
+EXIT CODES
+
+.TP
+.B 0
+The operation succeeded.
+.TP
+.B 1
+An error occurred.
+
+FILES
+**dataPath**/apss.dat
+.br
+/var/run/**serviceName**.pid
+
+SEE ALSO
+**cliName** (8)
+
+AUTHOR
+Created by Intel Corporation.

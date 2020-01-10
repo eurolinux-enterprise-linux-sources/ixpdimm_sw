@@ -1,0 +1,5 @@
+output/
+src/common/os/win_msgs.h
+scripts/manpage_helper.pyc
+scripts/nvmcli.8.gz
+scripts/nvmmonitor.8.gz
